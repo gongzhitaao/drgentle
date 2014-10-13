@@ -28,6 +28,12 @@ function fill_pub_list() {
         a.append(b);
       }
 
+      if (data[i].pdf) {
+        b = $('<a/>', {'href': data[i].pdf})
+            .append($('<i/>', {'class': 'fa fa-file-pdf-o'}));
+        a.append(b);
+      }
+
       c.append(a);
 
       a = $('<div/>', {'class': 'col-lg-9'});
