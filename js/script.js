@@ -1,7 +1,7 @@
 (function($, undefined) {
 
 function fill_pub_list() {
-  $.getJSON('../pub.json', function(data) {
+  $.getJSON('pub.json', function(data) {
     $('#pub-cnt').text(data.length);
 
     var i, tmp, a, b, c, list = $('<div/>');
