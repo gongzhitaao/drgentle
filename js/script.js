@@ -6,6 +6,10 @@ function fill_pub_list() {
 
     $('#pub-cnt').text(data.length);
 
+    data.sort(function(a, b) {
+      return b.year - a.year;
+    });
+
     var i, tmp, a, b, c, list = $('<div/>');
     for (i = 0; i < data.length; ++i) {
       c = $('<div/>', {'class': 'row'});
@@ -28,8 +32,8 @@ function fill_pub_list() {
         a.append(b);
       }
 
-      if (data[i].link) {
-        b = $('<a/>', {'href': data[i].link,
+      if (data[i].url) {
+        b = $('<a/>', {'href': data[i].url,
                       'style': 'margin-right: 10px'})
           .append($('<i/>', {'class': 'fa fa-link'}));
         a.append(b);
