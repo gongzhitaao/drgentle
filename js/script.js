@@ -23,12 +23,18 @@ function fill_pub_list() {
 
       b = $('<p/>', {'style': 'font-size: medium'})
           .text((data[i].volume ? "Volume " + data[i].volume : "") +
-                (data[i].number ? ", Issue" + data[i].number : ""));
+                (data[i].number ? " Issue " + data[i].number : ""));
       a.append(b);
 
       if (data[i].pages) {
         b = $('<p/>', {'style': 'font-size: medium'})
-            .text("Pages " + data[i].pages);
+          .text("Pages " + data[i].pages);
+        a.append(b);
+      }
+
+      if (data[i].year) {
+        b = $('<p/>', {'style': 'font-size: medium'})
+            .text(data[i].year);
         a.append(b);
       }
 
