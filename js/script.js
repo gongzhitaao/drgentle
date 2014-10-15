@@ -10,7 +10,9 @@ function fill_pub_list() {
       return b.year - a.year;
     });
 
-    var i, tmp, a, b, c, list = $('<div/>');
+    var i, tmp, a, b, c,
+        list1 = $('<div/>'),
+        list2 = $('<div/>');
     for (i = 0; i < data.length; ++i) {
       c = $('<div/>', {'class': 'row'});
 
@@ -66,10 +68,13 @@ function fill_pub_list() {
 
       c.append(a);
 
-      list.append(c);
+      if ('phillips' in data[i])
+        list1.append(c);
+      else list2.append(c);
     }
 
-    $('#pub-list').append(list.html());
+    $('#pub-list-phillips').append(list1.html());
+    $('#pub-list-other').append(list2.html());
   });
 }
 

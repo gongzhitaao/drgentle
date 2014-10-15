@@ -8,6 +8,7 @@
     "pages": "6-16",
     "year": "2014",
     "month": "6",
+    "phillips": "1",
     "journal": "Banks and Bank Systems",
     "author": "Paul F. Gentle, Mark Thornton",
     "title": "Issues concerning Hayekian Triangles & Phillips Cures, with Real Wage and Real Interest variables"
@@ -21,6 +22,7 @@
     "pages": "61-71",
     "year": "2013",
     "month": "6",
+    "phillips": "1",
     "journal": "Banks and Bank Systems",
     "author": "Paul F. Gentle, Tao Chen",
     "title": "Significance of Real Interest and Real Wages in the Temporary Inflation-Unemployment Trade-off: Some Evidence from Canadian data from 1935 through 2010"
@@ -36,6 +38,7 @@
     "pages": "153-171",
     "author": "Tao Chen, Paul F. Gentle",
     "journal": "Economia Internazionale",
+    "phillips": "1",
     "title": "The Inflation-Unemployment Trade-off and the Significance of the Interest Rate: Some Evidence from United States Data from 1939 through 2007"
   },
   {
@@ -45,6 +48,7 @@
     "number": "1",
     "year": "2010",
     "pages": "87-91",
+    "phillips": "1",
     "author": "Tao Chen, Paul F. Gentle, Kamal P. Upadhyaya",
     "journal": "Banks and Bank Systems",
     "title": "The inflation-unemployment trade-off and the significance of the interest rate: some evidence from the United Kingdom"
@@ -57,6 +61,7 @@
     "month": "3",
     "pages": "319-331",
     "year": "2007",
+    "phillips": "1",
     "journal": "Economia Internazionale",
     "author": "Tao Chen, Paul F. Gentle, Kamal P. Upadhyaya",
     "title": "Real wages, Real interest rates and the Phillips Curve: Evidence from Canadian Data"
@@ -69,6 +74,7 @@
     "number": "4",
     "year": "2005",
     "pages": "397-402",
+    "phillips": "1",
     "author": "Paul F. Gentle, Krishna P. Paudel & Kamal P. Upadhyaya",
     "journal": "Applied Economics",
     "title": "Real wages, real interest rates, and the Phillips curve"
@@ -176,5 +182,18 @@
     "year": "2014",
     "author": "Paul F Gentle",
     "title": "America's response to China: a history of Sino-American relations"
+  },
+  {
+    "abstract": "The theory concerning short run and long run Phillips curves center on money illusion as it relates to labor. This article suggests that entrepreneurs can be affected by (short run) cost increases resulting from unexpected inflation. The increasing use of variable rate business loans, makes it plausible that the cost of capital and other inputs may be incorrectly estimated if interest rates rise unexpectedly. Aggregate adjustments in input mix resulting from this miscalculation have implications for employment in the economy. Indeed, the effect of interest rate volatility on both entrepreneur and the wage rate on labor may both be determinants of the ultimate shape of what has come to be known as the Phillips Curve.",
+    "journal": "The southern business & economic journal",
+    "url": "http://www.econbiz.de/Record/capital-effects-and-money-illusion-an-additional-reason-for-the-existence-of-short-run-and-long-run-phillips-curves-gentle-paul/10001201420",
+    "pdf": "pdf/gentle_novak.pdf",
+    "year": "1996",
+    "volume": "19",
+    "number": "3",
+    "phillips": "1",
+    "pages": "210-218",
+    "author": "Paul Gentle, James L. Novak",
+    "title": "Capital Effects and Money Illusion: An Additional Reason for the Existence of Long Run and Short Phillips Curves"
   }
 ]
