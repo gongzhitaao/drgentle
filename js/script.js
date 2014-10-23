@@ -7,7 +7,9 @@ function fill_pub_list() {
     $('#pub-cnt').text(data.length);
 
     data.sort(function(a, b) {
-      return b.year - a.year;
+      if (a.year && b.year)
+        return b.year - a.year;
+      return ('year' in b);
     });
 
     var i, tmp, a, b, c,
