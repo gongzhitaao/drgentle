@@ -42,12 +42,12 @@ function fill_pub_list() {
         a.append(b);
       }
 
-      if (data[i].url) {
-        b = $('<a/>', {'href': data[i].url,
-                      'style': 'margin-right: 10px'})
-          .append($('<i/>', {'class': 'fa fa-link'}));
-        a.append(b);
-      }
+      // if (data[i].url) {
+      //   b = $('<a/>', {'href': data[i].url,
+      //                 'style': 'margin-right: 10px'})
+      //     .append($('<i/>', {'class': 'fa fa-link'}));
+      //   a.append(b);
+      // }
 
       if (data[i].pdf) {
         b = $('<a/>', {'href': data[i].pdf})
